@@ -8,7 +8,7 @@ import { translateText, availableLanguages, getLanguageName } from '@/services/t
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Send } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const VoiceTranslator: React.FC = () => {
   const [isListening, setIsListening] = useState(false);

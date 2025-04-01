@@ -1,5 +1,5 @@
 
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 // Mock translation service - in a real app, this would connect to a translation API
 export interface TranslationRequest {
